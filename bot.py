@@ -1,9 +1,10 @@
 import discord
 import asyncio
-import random
-import time
 import youtube_dl
 from discord.ext import commands
+from discord.utils import find
+import requests as rq
+import os
 
 Client = discord.Client()
 client = commands.Bot(command_prefix = "-")
