@@ -1,15 +1,13 @@
 import discord
-import youtube_dl
 import asyncio
 import random
-import requests
-import os
-
+import time
+import youtube_dl
 from discord.ext import commands
-from discord.ext.commmands import Bot
 
 Client = discord.Client()
 client = commands.Bot(command_prefix = "-")
+
 
 players = {}
 
@@ -36,4 +34,4 @@ async def play(ctx):
      players[server.id] = player
      player.start()
 
-client.run(str(os.environ.get('BOT_TOKEN')))
+client.run("NTMzMjc1MDQ5OTIzNDQ0NzM2.Dxoq6A.-dbp3m--QGayQp2Wv_1LTEjmPbA")
