@@ -36,4 +36,4 @@ async def play(ctx):
      players[server.id] = player
      player.start()
 
-client.run("NTMzMjc1MDQ5OTIzNDQ0NzM2.Dxoq6A.-dbp3m--QGayQp2Wv_1LTEjmPbA")
+client.run(str(os.environ.get('BOT_TOKEN')))
