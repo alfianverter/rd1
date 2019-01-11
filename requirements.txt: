@@ -1,4 +1,5 @@
 discord
-asycio
-youtube_dl
-pip
+asyncio
+youtube-dl
+PyNaCl
+requests
